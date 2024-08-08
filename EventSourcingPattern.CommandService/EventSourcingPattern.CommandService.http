@@ -1,0 +1,6 @@
+@EventSourcingPattern.CommandService_HostAddress = http://localhost:5057
+
+GET {{EventSourcingPattern.CommandService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@EventSourcingPattern.CommandEventsApi_HostAddress = http://localhost:5096
+
+GET {{EventSourcingPattern.CommandEventsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
